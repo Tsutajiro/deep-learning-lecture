@@ -2,7 +2,7 @@
 import numpy as np
 
 ## @package     perceptron
-#  @brief       basic digital logic gates
+#  @brief       basic digital logic gates (Chapter 2)
 #  @author      tsutaj
 #  @date        November 6, 2018
 
