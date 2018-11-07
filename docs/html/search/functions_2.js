@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['nand',['NAND',['../namespaceperceptron.html#a0b0632898d56bd0604f4281763a708cf',1,'perceptron']]]
+  ['forward',['forward',['../343__network_8py.html#a441784ea15a69ad1f0bf0091fc44934a',1,'343_network']]]
 ];

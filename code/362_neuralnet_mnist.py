@@ -1,0 +1,59 @@
+# -*- coding: utf-8 -*-
+import numpy as np
+import pickle
+from dataset.mnist import load_mnist
+from lib.activation_function import sigmoid, softmax
+
+## @file        362_neuralnet_mnist.py
+#  @brief       Chapter 3: Infer using trained network
+#  @author      tsutaj
+#  @date        November 7, 2018
+
+## @brief       Get dataset (test-case only)
+def get_data():
+    (x_train, t_train), (x_test, t_test) = \
+        load_mnist(normalize=True, flatten=True, one_hot_label=False)
+    return x_test, t_test
+
+## @brief       Initialize neural network
+def init_network():
+    with open('./dataset/sample_weight.pkl', 'rb') as f:
+        network = pickle.load(f)
+    return network
+
+## @brief       Predict the class using neural network
+#  @param       network     trained network
+#  @param       x           the image which is used for inference
+#  @note        Sample weight (trained neural network) is available in official: https://github.com/oreilly-japan/deep-learning-from-scratch/blob/master/ch03/sample_weight.pkl?raw=true
+def predict(network, x):
+    W1, W2, W3 = network['W1'], network['W2'], network['W3']
+    b1, b2, b3 = network['b1'], network['b2'], network['b3']
+
+    a1 = np.dot(x, W1) + b1
+    z1 = sigmoid(a1)
+    a2 = np.dot(z1, W2) + b2
+    z2 = sigmoid(a2)
+    a3 = np.dot(z2, W3) + b3
+    y = softmax(a3)
+
+    return y
+
+## @brief       Run prediction
+def main():
+    x, t = get_data()
+    network = init_network()
+
+    accuracy_cnt = 0
+    for i in range(len(x)):
+        y = predict(network, x[i])
+        p = np.argmax(y)
+
+        if p == t[i]:
+            accuracy_cnt += 1
+        #else:
+        #    print('Incorrect: Answer = {0}, Predict = {1}'.format(t[i], p))
+
+    print('Accuracy: {0} ({1}/{2})'.format(accuracy_cnt / len(x), accuracy_cnt, len(x)))
+
+if __name__ == '__main__':
+    main()

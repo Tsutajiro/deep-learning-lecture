@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['main',['main',['../activation__function_8py.html#ad034324204913f12d6dfe28a5134a30f',1,'activation_function.main()'],['../gate__test_8py.html#a5b626004f3f4af6ad50a951c03eb79d2',1,'gate_test.main()']]]
+  ['download_5fmnist',['download_mnist',['../namespacemnist.html#a7dbf3a91e17fb6320e9890bb5c6a04f7',1,'mnist']]],
+  ['deep_2dlearning_2dlecture',['deep-learning-lecture',['../md__mnt_hdd1_deep-learning-lecture__r_e_a_d_m_e.html',1,'']]]
 ];

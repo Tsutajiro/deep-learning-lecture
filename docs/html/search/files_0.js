@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['activation_5ffunction_2epy',['activation_function.py',['../activation__function_8py.html',1,'']]]
+  ['252_5fgate_5ftest_2epy',['252_gate_test.py',['../252__gate__test_8py.html',1,'']]]
 ];

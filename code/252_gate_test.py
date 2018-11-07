@@ -2,8 +2,8 @@
 
 from lib.perceptron import AND, OR, NAND, XOR
 
-## @file        gate_test.py
-#  @brief       Tiny script for verifying logical gates
+## @file        252_gate_test.py
+#  @brief       Chapter 2: Tiny script for verifying logical gates
 #  @author      tsutaj
 #  @date        November 7, 2018
 

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['sigmoidfunction',['sigmoidFunction',['../activation__function_8py.html#af3e8152d2dfddfc5be92c7e11c8c0658',1,'activation_function']]],
-  ['stepfunction',['stepFunction',['../activation__function_8py.html#a9cb0a5b8e42ae4fbccd46f6cd477cb91',1,'activation_function']]]
+  ['load_5fmnist',['load_mnist',['../namespacemnist.html#ace71618f2cb37f691886daf36d5ccae5',1,'mnist']]]
 ];
