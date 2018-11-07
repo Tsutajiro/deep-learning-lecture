@@ -2,7 +2,7 @@
 import numpy as np
 
 ## @package     perceptron
-#  @brief       basic digital logic gates (Chapter 2)
+#  @brief       Basic digital logic gates (Chapter 2)
 #  @author      tsutaj
 #  @date        November 6, 2018
 
@@ -49,8 +49,8 @@ def NAND(x1, x2):
 #  @param       x1 input (boolean)
 #  @param       x2 input (boolean)
 #  @return      boolean \f$x_1\f$ \f$\mathrm{XOR}\f$ \f$x_2\f$
+#  @note        XOR gate takes non-linear region, so you cannot describe it using only single perceptron. The combination of AND / OR / NAND gate enable you to describe this gate (2-layered perceptron).
 def XOR(x1, x2):
-    # non-linear function
     s1 = NAND(x1, x2)
     s2 = OR(x1, x2)
     return AND(s1, s2)
