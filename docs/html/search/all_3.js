@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['download_5fmnist',['download_mnist',['../namespacemnist.html#a7dbf3a91e17fb6320e9890bb5c6a04f7',1,'mnist']]],
-  ['deep_2dlearning_2dlecture',['deep-learning-lecture',['../md__mnt_hdd1_deep-learning-lecture__r_e_a_d_m_e.html',1,'']]]
+  ['_5f_5finit_5f_5f',['__init__',['../classlib_1_1_simple_net_1_1_simple_net.html#a6d6408d7f9f58168759a65b0ee51e712',1,'lib.SimpleNet.SimpleNet.__init__()'],['../classlib_1_1_two_layer_net_1_1_two_layer_net.html#a4135c164cf1524aa48a21761334e527b',1,'lib.TwoLayerNet.TwoLayerNet.__init__()']]]
 ];

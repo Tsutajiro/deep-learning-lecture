@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['mnist',['mnist',['../namespacemnist.html',1,'']]]
+  ['gradient',['gradient',['../namespacegradient.html',1,'']]]
 ];

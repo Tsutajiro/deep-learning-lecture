@@ -7,8 +7,8 @@ import numpy as np
 #  @date        November 6, 2018
 
 ## @brief       Calculate \f$x_1\f$ \f$\mathrm{AND}\f$ \f$x_2\f$
-#  @param       x1 input (boolean)
-#  @param       x2 input (boolean)
+#  @param       x1 boolean
+#  @param       x2 boolean
 #  @return      boolean \f$x_1\f$ \f$\mathrm{AND}\f$ \f$x_2\f$
 def AND(x1, x2):
     x = np.array([x1, x2])
@@ -20,8 +20,8 @@ def AND(x1, x2):
         return 1
 
 ## @brief       Calculate \f$x_1\f$ \f$\mathrm{OR}\f$ \f$x_2\f$
-#  @param       x1 input (boolean)
-#  @param       x2 input (boolean)
+#  @param       x1 boolean
+#  @param       x2 boolean
 #  @return      boolean \f$x_1\f$ \f$\mathrm{OR}\f$ \f$x_2\f$
 def OR(x1, x2):
     x = np.array([x1, x2])
@@ -33,8 +33,8 @@ def OR(x1, x2):
         return 1
 
 ## @brief       Calculate \f$x_1\f$ \f$\mathrm{NAND}\f$ \f$x_2\f$
-#  @param       x1 input (boolean)
-#  @param       x2 input (boolean)
+#  @param       x1 boolean
+#  @param       x2 boolean
 #  @return      boolean \f$x_1\f$ \f$\mathrm{NAND}\f$ \f$x_2\f$
 def NAND(x1, x2):
     x = np.array([x1, x2])
@@ -46,10 +46,10 @@ def NAND(x1, x2):
         return 1
 
 ## @brief       Calculate \f$x_1\f$ \f$\mathrm{XOR}\f$ \f$x_2\f$
-#  @param       x1 input (boolean)
-#  @param       x2 input (boolean)
+#  @param       x1 boolean
+#  @param       x2 boolean
 #  @return      boolean \f$x_1\f$ \f$\mathrm{XOR}\f$ \f$x_2\f$
-#  @note        XOR gate takes non-linear region, so you cannot describe it using only single perceptron. The combination of AND / OR / NAND gate enable you to describe this gate (2-layered perceptron).
+#  @note        XOR gate takes non-linear region, so you cannot describe it using only single perceptron. The combination of AND / OR / NAND gate enables you to describe this gate (2-layered perceptron).
 def XOR(x1, x2):
     s1 = NAND(x1, x2)
     s2 = OR(x1, x2)

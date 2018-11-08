@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['perceptron',['perceptron',['../namespaceperceptron.html',1,'']]]
+  ['loss_5ffunction',['loss_function',['../namespaceloss__function.html',1,'']]]
 ];

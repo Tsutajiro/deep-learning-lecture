@@ -107,6 +107,7 @@ def _change_one_hot_label(X):
 #  @param       normalize       Normalize array (all values are \f$\left[0, 1\right]\f$) or not (Default: True)
 #  @param       flatten         Flatten array (convert into 1-dim) or not (Default: True)
 #  @param       one_hot_label   Convert label information into one-hot label (Default: False)
+#  @return      ('train_image', 'train_label'), ('test_image', 'test_label')    Tuples which indicates training data and test data
 #  @note        If it is the first run, network connection is required for downloading datasets.
 def load_mnist(normalize=True, flatten=True, one_hot_label=False):
     if not os.path.exists(save_file):

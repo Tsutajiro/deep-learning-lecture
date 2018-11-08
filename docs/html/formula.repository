@@ -1,7 +1,11 @@
 \form#0:$\left[0, 1\right]$
-\form#1:$x_1$
-\form#2:$\mathrm{AND}$
-\form#3:$x_2$
-\form#4:$\mathrm{OR}$
-\form#5:$\mathrm{NAND}$
-\form#6:$\mathrm{XOR}$
+\form#1:$\left( 0, 1 \right)$
+\form#2:$ E = \frac{1}{2} \sum_{k} (y_k - t_k)^2 $
+\form#3:$ E = - \sum_{k} t_k \log y_k $
+\form#4:$x_1$
+\form#5:$\mathrm{AND}$
+\form#6:$x_2$
+\form#7:$\mathrm{OR}$
+\form#8:$\mathrm{NAND}$
+\form#9:$\mathrm{XOR}$
+\form#10:$ 2 \times 3 $

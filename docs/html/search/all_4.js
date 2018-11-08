@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['forward',['forward',['../343__network_8py.html#a441784ea15a69ad1f0bf0091fc44934a',1,'343_network']]]
+  ['accuracy',['accuracy',['../classlib_1_1_two_layer_net_1_1_two_layer_net.html#a44b2f31cac26fc9cf50c709a0088867f',1,'lib::TwoLayerNet::TwoLayerNet']]],
+  ['activation_5ffunction',['activation_function',['../namespaceactivation__function.html',1,'']]]
 ];

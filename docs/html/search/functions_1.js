@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['download_5fmnist',['download_mnist',['../namespacemnist.html#a7dbf3a91e17fb6320e9890bb5c6a04f7',1,'mnist']]]
+  ['accuracy',['accuracy',['../classlib_1_1_two_layer_net_1_1_two_layer_net.html#a44b2f31cac26fc9cf50c709a0088867f',1,'lib::TwoLayerNet::TwoLayerNet']]]
 ];
