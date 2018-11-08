@@ -63,6 +63,9 @@ $(function() {
 
 </div><!-- top -->
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">mnist Namespace Reference</div>  </div>
 </div><!--header-->
@@ -70,11 +73,111 @@ $(function() {
 
 <p>Chapter 3: Deal with MNIST dataset.  
 <a href="#details">More...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a7dbf3a91e17fb6320e9890bb5c6a04f7"><td class="memItemLeft" align="right" valign="top"><a id="a7dbf3a91e17fb6320e9890bb5c6a04f7"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemnist.html#a7dbf3a91e17fb6320e9890bb5c6a04f7">download_mnist</a> ()</td></tr>
+<tr class="memdesc:a7dbf3a91e17fb6320e9890bb5c6a04f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Download images, labels. <br /></td></tr>
+<tr class="separator:a7dbf3a91e17fb6320e9890bb5c6a04f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ae2d06cab7a5541f40277431b6d5a1f"><td class="memItemLeft" align="right" valign="top"><a id="a5ae2d06cab7a5541f40277431b6d5a1f"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemnist.html#a5ae2d06cab7a5541f40277431b6d5a1f">init_mnist</a> ()</td></tr>
+<tr class="memdesc:a5ae2d06cab7a5541f40277431b6d5a1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize MNIST dataset. <br /></td></tr>
+<tr class="separator:a5ae2d06cab7a5541f40277431b6d5a1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace71618f2cb37f691886daf36d5ccae5"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemnist.html#ace71618f2cb37f691886daf36d5ccae5">load_mnist</a> (normalize=True, flatten=True, one_hot_label=False)</td></tr>
+<tr class="memdesc:ace71618f2cb37f691886daf36d5ccae5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load MNIST dataset.  <a href="#ace71618f2cb37f691886daf36d5ccae5">More...</a><br /></td></tr>
+<tr class="separator:ace71618f2cb37f691886daf36d5ccae5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:abdeff5cf2db82fca0234477215888f20"><td class="memItemLeft" align="right" valign="top"><a id="abdeff5cf2db82fca0234477215888f20"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>url_base</b> = 'http://yann.lecun.com/exdb/mnist/'</td></tr>
+<tr class="separator:abdeff5cf2db82fca0234477215888f20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85a9a752a699f0d86b544d1f6e896eb5"><td class="memItemLeft" align="right" valign="top">dictionary&#160;</td><td class="memItemRight" valign="bottom"><b>key_file</b></td></tr>
+<tr class="separator:a85a9a752a699f0d86b544d1f6e896eb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae23e09e9b52829ed2a56290eff5bf2e8"><td class="memItemLeft" align="right" valign="top"><a id="ae23e09e9b52829ed2a56290eff5bf2e8"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>train_num</b> = 60000</td></tr>
+<tr class="separator:ae23e09e9b52829ed2a56290eff5bf2e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8a466a79cc4871552e13be1948bf93f"><td class="memItemLeft" align="right" valign="top"><a id="af8a466a79cc4871552e13be1948bf93f"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>test_num</b> = 10000</td></tr>
+<tr class="separator:af8a466a79cc4871552e13be1948bf93f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02e938550879d5886b7e2b97ef088548"><td class="memItemLeft" align="right" valign="top"><a id="a02e938550879d5886b7e2b97ef088548"></a>
+tuple&#160;</td><td class="memItemRight" valign="bottom"><b>image_dim</b> = (1, 28, 28)</td></tr>
+<tr class="separator:a02e938550879d5886b7e2b97ef088548"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1051159287501a5ce7bf28b32ddd2dd"><td class="memItemLeft" align="right" valign="top"><a id="aa1051159287501a5ce7bf28b32ddd2dd"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>image_size</b> = 784</td></tr>
+<tr class="separator:aa1051159287501a5ce7bf28b32ddd2dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac81b173e9e63ad2bc4f7a0238fe33bcf"><td class="memItemLeft" align="right" valign="top"><a id="ac81b173e9e63ad2bc4f7a0238fe33bcf"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>class_num</b> = 10</td></tr>
+<tr class="separator:ac81b173e9e63ad2bc4f7a0238fe33bcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p class="">Chapter 3: Deal with MNIST dataset. </p>
 <dl class="section author"><dt>Author</dt><dd>tsutaj </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>November 7, 2018 </dd></dl>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Function Documentation</h2>
+<a id="ace71618f2cb37f691886daf36d5ccae5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace71618f2cb37f691886daf36d5ccae5">&#9670;&nbsp;</a></span>load_mnist()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def mnist.load_mnist </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>normalize</em> = <code>True</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>flatten</em> = <code>True</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>one_hot_label</em> = <code>False</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Load MNIST dataset. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">normalize</td><td>Normalize array (all values are <img class="formulaInl" alt="$\left[0, 1\right]$" src="form_0.png"/>) or not (Default: True) </td></tr>
+    <tr><td class="paramname">flatten</td><td>Flatten array (convert into 1-dim) or not (Default: True) </td></tr>
+    <tr><td class="paramname">one_hot_label</td><td>Convert label information into one-hot label (Default: False) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>('train_image', 'train_label'), ('test_image', 'test_label') Tuples which indicates training data and test data </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>If it is the first run, network connection is required for downloading datasets. </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a85a9a752a699f0d86b544d1f6e896eb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85a9a752a699f0d86b544d1f6e896eb5">&#9670;&nbsp;</a></span>key_file</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">dictionary mnist.key_file</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;=  {</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;    <span class="stringliteral">&#39;train_image&#39;</span>: <span class="stringliteral">&#39;train-images-idx3-ubyte.gz&#39;</span>,</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;    <span class="stringliteral">&#39;train_label&#39;</span>: <span class="stringliteral">&#39;train-labels-idx1-ubyte.gz&#39;</span>,</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;    <span class="stringliteral">&#39;test_image&#39;</span> : <span class="stringliteral">&#39;t10k-images-idx3-ubyte.gz&#39;</span>,</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="stringliteral">&#39;test_label&#39;</span> : <span class="stringliteral">&#39;t10k-labels-idx1-ubyte.gz&#39;</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;}</div></div><!-- fragment -->
+</div>
+</div>
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

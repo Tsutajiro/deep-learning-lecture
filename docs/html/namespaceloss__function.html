@@ -63,6 +63,8 @@ $(function() {
 
 </div><!-- top -->
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">loss_function Namespace Reference</div>  </div>
 </div><!--header-->
@@ -70,11 +72,114 @@ $(function() {
 
 <p>Chapter 4: Functions which calculate train loss.  
 <a href="#details">More...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ae3ddb0338b72a1d682f084f441a0c08d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceloss__function.html#ae3ddb0338b72a1d682f084f441a0c08d">mean_squared_error</a> (y, t, one_hot_label=False)</td></tr>
+<tr class="memdesc:ae3ddb0338b72a1d682f084f441a0c08d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate mean squared error between x and y.  <a href="#ae3ddb0338b72a1d682f084f441a0c08d">More...</a><br /></td></tr>
+<tr class="separator:ae3ddb0338b72a1d682f084f441a0c08d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb89f35fb091c3fd58e487c591e835c5"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceloss__function.html#abb89f35fb091c3fd58e487c591e835c5">cross_entropy_error</a> (y, t, one_hot_label=False)</td></tr>
+<tr class="memdesc:abb89f35fb091c3fd58e487c591e835c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate cross entropy error between x and y.  <a href="#abb89f35fb091c3fd58e487c591e835c5">More...</a><br /></td></tr>
+<tr class="separator:abb89f35fb091c3fd58e487c591e835c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p class="">Chapter 4: Functions which calculate train loss. </p>
 <dl class="section author"><dt>Author</dt><dd>tsutaj </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>November 8, 2018 </dd></dl>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Function Documentation</h2>
+<a id="abb89f35fb091c3fd58e487c591e835c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb89f35fb091c3fd58e487c591e835c5">&#9670;&nbsp;</a></span>cross_entropy_error()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def loss_function.cross_entropy_error </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>one_hot_label</em> = <code>False</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculate cross entropy error between x and y. </p>
+<p class="">function: <img class="formulaInl" alt="$ E = - \sum_{k} t_k \log y_k $" src="form_3.png"/> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">y</td><td>an NumPy array output by neural network </td></tr>
+    <tr><td class="paramname">t</td><td>an NumPy array representing the correct label </td></tr>
+    <tr><td class="paramname">one_hot_label</td><td>boolean if <code>t</code> is one-hot representation or not</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section warning"><dt>Warning</dt><dd>It is not verified when <code>t</code> is not one-hot representation! </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>This function works both single data input and batch input. </dd></dl>
+
+</div>
+</div>
+<a id="ae3ddb0338b72a1d682f084f441a0c08d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3ddb0338b72a1d682f084f441a0c08d">&#9670;&nbsp;</a></span>mean_squared_error()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def loss_function.mean_squared_error </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>one_hot_label</em> = <code>False</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculate mean squared error between x and y. </p>
+<p class="">function: <img class="formulaInl" alt="$ E = \frac{1}{2} \sum_{k} (y_k - t_k)^2 $" src="form_2.png"/> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">y</td><td>an NumPy array output by neural network </td></tr>
+    <tr><td class="paramname">t</td><td>an NumPy array representing the correct label </td></tr>
+    <tr><td class="paramname">one_hot_label</td><td>boolean if <code>t</code> is one-hot representation or not</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section warning"><dt>Warning</dt><dd>It is not verified when <code>t</code> is not one-hot representation! </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>This function works both single data input and batch input. </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

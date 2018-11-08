@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['main',['main',['../252__gate__test_8py.html#a1b8741b3ecd097351fa258f9c9a05da0',1,'252_gate_test.main()'],['../325__activation__function__test_8py.html#a1971e5c6d9cee1f49a3a71517c0bd1f7',1,'325_activation_function_test.main()'],['../343__network_8py.html#a5e3977b8e67ba16cc1d7178e33bd1626',1,'343_network.main()'],['../361__load__image_8py.html#a13524c808371cc46be29b49d48b6a481',1,'361_load_image.main()'],['../362__neuralnet__mnist_8py.html#a88c1b3a6e0f2f20e58a58b7bd333ea1c',1,'362_neuralnet_mnist.main()']]]
+  ['identity',['identity',['../namespaceactivation__function.html#ab31351e80ab480d6a87ba16a5f91c5f7',1,'activation_function']]],
+  ['image_5fshow',['image_show',['../361__load__image_8py.html#a6e25684ce95887b0da3c75956addbe6e',1,'361_load_image']]],
+  ['init_5fmnist',['init_mnist',['../namespacemnist.html#a5ae2d06cab7a5541f40277431b6d5a1f',1,'mnist']]],
+  ['init_5fnetwork',['init_network',['../343__network_8py.html#a85ea8c51d4140a5ea804fa1a6e038edf',1,'343_network.init_network()'],['../362__neuralnet__mnist_8py.html#a2d9c7636b6ddd1cc40daadd965c82e99',1,'362_neuralnet_mnist.init_network()']]]
 ];

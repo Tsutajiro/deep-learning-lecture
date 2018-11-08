@@ -63,6 +63,8 @@ $(function() {
 
 </div><!-- top -->
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">gradient Namespace Reference</div>  </div>
 </div><!--header-->
@@ -70,11 +72,154 @@ $(function() {
 
 <p>Chapter 4: Calculate numerical diff and numerical gradient.  
 <a href="#details">More...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:abc6a31ee6eef60f056bac2d914a343e4"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegradient.html#abc6a31ee6eef60f056bac2d914a343e4">numerical_diff</a> (func, x)</td></tr>
+<tr class="memdesc:abc6a31ee6eef60f056bac2d914a343e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate numerical differentiation.  <a href="#abc6a31ee6eef60f056bac2d914a343e4">More...</a><br /></td></tr>
+<tr class="separator:abc6a31ee6eef60f056bac2d914a343e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a805b8ddec728ba92208478244304deca"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegradient.html#a805b8ddec728ba92208478244304deca">numerical_gradient</a> (func, x)</td></tr>
+<tr class="memdesc:a805b8ddec728ba92208478244304deca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate gradient.  <a href="#a805b8ddec728ba92208478244304deca">More...</a><br /></td></tr>
+<tr class="separator:a805b8ddec728ba92208478244304deca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc2bbf5b4982a8c7c8d475f9adb94a7a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegradient.html#abc2bbf5b4982a8c7c8d475f9adb94a7a">gradient_descent</a> (func, init_x, lr=0.01, step_num=100)</td></tr>
+<tr class="memdesc:abc2bbf5b4982a8c7c8d475f9adb94a7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find local minimum value by gradient descent method.  <a href="#abc2bbf5b4982a8c7c8d475f9adb94a7a">More...</a><br /></td></tr>
+<tr class="separator:abc2bbf5b4982a8c7c8d475f9adb94a7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p class="">Chapter 4: Calculate numerical diff and numerical gradient. </p>
 <dl class="section author"><dt>Author</dt><dd>tsutaj </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>November 8, 2018 </dd></dl>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Function Documentation</h2>
+<a id="abc2bbf5b4982a8c7c8d475f9adb94a7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc2bbf5b4982a8c7c8d475f9adb94a7a">&#9670;&nbsp;</a></span>gradient_descent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def gradient.gradient_descent </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>func</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>init_x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>lr</em> = <code>0.01</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>step_num</em> = <code>100</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Find local minimum value by gradient descent method. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">func</td><td>multi-variable function </td></tr>
+    <tr><td class="paramname">init_x</td><td>an NumPy array: initial values </td></tr>
+    <tr><td class="paramname">lr</td><td><img class="formulaInl" alt="$\left( 0, 1 \right)$" src="form_1.png"/> real number: learning rate </td></tr>
+    <tr><td class="paramname">step_num</td><td>integer: the number of repetition </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>Setting learning rate appropriately is very important. If this rate is small, values are rarely updated. If this is large, values diverges to high. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>real NumPy array: final values which indicate local minimum </dd></dl>
+
+</div>
+</div>
+<a id="abc6a31ee6eef60f056bac2d914a343e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc6a31ee6eef60f056bac2d914a343e4">&#9670;&nbsp;</a></span>numerical_diff()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def gradient.numerical_diff </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>func</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>x</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculate numerical differentiation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">func</td><td>one-variable function </td></tr>
+    <tr><td class="paramname">x</td><td>real number: the value of variable <code>x</code> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>real number: differential value </dd></dl>
+
+</div>
+</div>
+<a id="a805b8ddec728ba92208478244304deca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a805b8ddec728ba92208478244304deca">&#9670;&nbsp;</a></span>numerical_gradient()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def gradient.numerical_gradient </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>func</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>x</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculate gradient. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">func</td><td>multi-variable function </td></tr>
+    <tr><td class="paramname">x</td><td>an NumPy array or NumPy matrix: the value of variable <code>x</code> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>real NumPy array: gradient </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

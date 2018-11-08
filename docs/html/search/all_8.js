@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['image_5fshow',['image_show',['../361__load__image_8py.html#a6e25684ce95887b0da3c75956addbe6e',1,'361_load_image']]],
-  ['init_5fnetwork',['init_network',['../343__network_8py.html#a85ea8c51d4140a5ea804fa1a6e038edf',1,'343_network.init_network()'],['../362__neuralnet__mnist_8py.html#a2d9c7636b6ddd1cc40daadd965c82e99',1,'362_neuralnet_mnist.init_network()']]]
+  ['get_5fdata',['get_data',['../362__neuralnet__mnist_8py.html#a6cc346a4bd578f4ff78026d225f2332a',1,'362_neuralnet_mnist']]],
+  ['gradient',['gradient',['../namespacegradient.html',1,'']]],
+  ['gradient_5fdescent',['gradient_descent',['../namespacegradient.html#abc2bbf5b4982a8c7c8d475f9adb94a7a',1,'gradient']]]
 ];

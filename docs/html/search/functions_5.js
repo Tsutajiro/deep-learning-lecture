@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['loss',['loss',['../classlib_1_1_simple_net_1_1_simple_net.html#ac7cd6c21c70f7c70d1f4564688efc532',1,'lib.SimpleNet.SimpleNet.loss()'],['../classlib_1_1_two_layer_net_1_1_two_layer_net.html#a998ecbc3bfda46967d39a92f6a23730e',1,'lib.TwoLayerNet.TwoLayerNet.loss()']]]
+  ['get_5fdata',['get_data',['../362__neuralnet__mnist_8py.html#a6cc346a4bd578f4ff78026d225f2332a',1,'362_neuralnet_mnist']]],
+  ['gradient_5fdescent',['gradient_descent',['../namespacegradient.html#abc2bbf5b4982a8c7c8d475f9adb94a7a',1,'gradient']]]
 ];

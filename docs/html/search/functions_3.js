@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['get_5fdata',['get_data',['../362__neuralnet__mnist_8py.html#a6cc346a4bd578f4ff78026d225f2332a',1,'362_neuralnet_mnist']]]
+  ['download_5fmnist',['download_mnist',['../namespacemnist.html#a7dbf3a91e17fb6320e9890bb5c6a04f7',1,'mnist']]]
 ];
