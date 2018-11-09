@@ -10,6 +10,4 @@ The implementations of "Deep-learning from scratch" by myself
 * Chapter 1 (tutorial chapter) is omitted
 
 ## TODO
-### Doxygen addition
-* `TwoLayerNet`
-* `453_train_neuralnet.py`
+* Add contents from chapter 5 and following chapters

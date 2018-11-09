@@ -8,6 +8,8 @@ from lib.TwoLayerNet import TwoLayerNet
 #  @brief       Chapter 4: Train MNIST dataset usin two-layered neuralnet
 #  @author      tsutaj
 #  @date        November 8, 2018
+#  @note        This script uses slower method for calculating gradient (\p network.numerical_gradient).
+#  @note        The implementation using fast method will be also available. (TODO)
 
 def main():
     output_filename = '453_result.out'
