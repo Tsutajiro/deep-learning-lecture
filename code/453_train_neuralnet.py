@@ -46,6 +46,7 @@ def main():
                 train_acc_list.append(train_acc)
                 test_acc_list.append(test_acc)
                 fp.write('train acc, test acc | {0}, {1}\n'.format(train_acc, test_acc))
-
+                fp.flush() # write immediately
+                
 if __name__ == '__main__':
     main()
