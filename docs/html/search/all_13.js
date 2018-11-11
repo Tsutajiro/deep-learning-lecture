@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['xor',['XOR',['../namespaceperceptron.html#affcc1001c02b566e6c4badeea0fe4846',1,'perceptron']]]
+  ['w',['W',['../class_simple_net_1_1_simple_net.html#a3520fe591659d9aadc5f25878e26ef6f',1,'SimpleNet::SimpleNet']]]
 ];

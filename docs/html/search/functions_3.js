@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['download_5fmnist',['download_mnist',['../namespacemnist.html#a7dbf3a91e17fb6320e9890bb5c6a04f7',1,'mnist']]]
+  ['cross_5fentropy_5ferror',['cross_entropy_error',['../namespaceloss__function.html#abb89f35fb091c3fd58e487c591e835c5',1,'loss_function']]]
 ];

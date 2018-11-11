@@ -1,15 +1,26 @@
 \form#0:$\left[0, 1\right]$
 \form#1:$\left( 0, 1 \right)$
-\form#2:$ E = \frac{1}{2} \sum_{k} (y_k - t_k)^2 $
-\form#3:$ E = - \sum_{k} t_k \log y_k $
-\form#4:$x_1$
-\form#5:$\mathrm{AND}$
-\form#6:$x_2$
-\form#7:$\mathrm{OR}$
-\form#8:$\mathrm{NAND}$
-\form#9:$\mathrm{XOR}$
-\form#10:$ 2 \times 3 $
-\form#11:$ 28 \times 28 = 784 $
-\form#12:$ 0 $
-\form#13:$ 9 $
-\form#14:$ 10 $
+\form#2:$ x + y $
+\form#3:$ \left( \frac{\partial L}{\partial x}, \frac{\partial L}{\partial y} \right) $
+\form#4:$ z = x + y $
+\form#5:$ \frac{\partial z}{\partial x} = \frac{\partial z}{\partial y} = 1 $
+\form#6:$ x \times y $
+\form#7:$ z = x \times y $
+\form#8:$ L $
+\form#9:$ \frac{\partial L}{\partial x} = \frac{\partial L}{\partial z} \frac{\partial z}{\partial x} $
+\form#10:$ \frac{\partial L}{\partial z} $
+\form#11:$ \frac{\partial z}{\partial x} = y $
+\form#12:$ \frac{\partial L}{\partial y} $
+\form#13:$ E = \frac{1}{2} \sum_{k} (y_k - t_k)^2 $
+\form#14:$ E = - \sum_{k} t_k \log y_k $
+\form#15:$x_1$
+\form#16:$\mathrm{AND}$
+\form#17:$x_2$
+\form#18:$\mathrm{OR}$
+\form#19:$\mathrm{NAND}$
+\form#20:$\mathrm{XOR}$
+\form#21:$ 2 \times 3 $
+\form#22:$ 28 \times 28 = 784 $
+\form#23:$ 0 $
+\form#24:$ 9 $
+\form#25:$ 10 $

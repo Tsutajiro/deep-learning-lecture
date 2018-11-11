@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['simplenet',['SimpleNet',['../class_simple_net_1_1_simple_net.html',1,'SimpleNet']]]
+  ['addlayer',['AddLayer',['../class_add_layer_1_1_add_layer.html',1,'AddLayer']]]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['twolayernet',['TwoLayerNet',['../namespace_two_layer_net.html',1,'']]]
+  ['sigmoid',['Sigmoid',['../namespace_sigmoid.html',1,'']]],
+  ['simplenet',['SimpleNet',['../namespace_simple_net.html',1,'']]]
 ];
