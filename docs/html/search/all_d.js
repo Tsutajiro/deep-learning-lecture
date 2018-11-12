@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['nand',['NAND',['../namespaceperceptron.html#a0b0632898d56bd0604f4281763a708cf',1,'perceptron']]],
-  ['numerical_5fdiff',['numerical_diff',['../namespacegradient.html#abc6a31ee6eef60f056bac2d914a343e4',1,'gradient']]],
-  ['numerical_5fgradient',['numerical_gradient',['../class_two_layer_net_1_1_two_layer_net.html#a30192fc2f6d7791bb6840daa12644997',1,'TwoLayerNet.TwoLayerNet.numerical_gradient()'],['../namespacegradient.html#a805b8ddec728ba92208478244304deca',1,'gradient.numerical_gradient()']]]
+  ['main',['main',['../252__gate__test_8py.html#a1b8741b3ecd097351fa258f9c9a05da0',1,'252_gate_test.main()'],['../325__activation__function__test_8py.html#a1971e5c6d9cee1f49a3a71517c0bd1f7',1,'325_activation_function_test.main()'],['../343__network_8py.html#a5e3977b8e67ba16cc1d7178e33bd1626',1,'343_network.main()'],['../361__load__image_8py.html#a13524c808371cc46be29b49d48b6a481',1,'361_load_image.main()'],['../362__neuralnet__mnist_8py.html#a88c1b3a6e0f2f20e58a58b7bd333ea1c',1,'362_neuralnet_mnist.main()']]],
+  ['mean_5fsquared_5ferror',['mean_squared_error',['../namespaceloss__function.html#ae3ddb0338b72a1d682f084f441a0c08d',1,'loss_function']]],
+  ['mnist',['mnist',['../namespacemnist.html',1,'']]],
+  ['mullayer',['MulLayer',['../class_mul_layer_1_1_mul_layer.html',1,'MulLayer.MulLayer'],['../namespace_mul_layer.html',1,'MulLayer']]]
 ];
